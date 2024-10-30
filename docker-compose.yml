@@ -1,0 +1,7 @@
+version : '3'
+services:
+  fastapi:
+    build:
+    ports:
+      - "6868:6868"
+    restart: unless-stopped
